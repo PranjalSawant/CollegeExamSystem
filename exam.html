@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+    <title>Exam Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='exam.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container   ">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="./admindashboard">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="title">College Examination</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./admindashboard">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <div class="title">Admin</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./candidates">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <div class="title">Candidates</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./prof">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <div class="title">Professors</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./resultadmin">
+                        <i class="fa-solid fa-chart-bar"></i>
+                        <div class="title">View Results</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./login1">
+                        <i class="fa fa-sign-out"></i>
+                        <div class="title">Log Out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <div class="main">
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">70</div>
+                    <div class="card-name">User Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">06</div>
+                    <div class="card-name">Test Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">39</div>
+                    <div class="card-name">Question Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-file-circle-question"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">67</div>
+                    <div class="card-name">Admin Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-user-gear"></i>
+                </div>
+            </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Select a course</button>
+                <div class="dropdown-content">
+                  <a href="./admindashboard.html">BCA</a>
+                  <a href="#">BMM</a>
+                  <a href="#">BMS</a>
+                </div>
+              </div>
+              
+        </div> 
+    </div>
+</body>
+</html>

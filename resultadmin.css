@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: #a5dee9;
+    }
+.container{
+    position: relative;
+    width: 100%;
+}
+/* sidebar */
+.sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;   
+    background: linear-gradient(45deg, #01a5c2, #013f46);
+    overflow-x: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+.sidebar ul li{
+   width: 100%;
+   list-style: none;
+}
+.sidebar ul li:hover{
+    background: rgb(140, 174, 190);
+}
+.sidebar ul li:first-child{
+    line-height: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.sidebar ul li:first-child:hover{
+    background: none;
+}
+.sidebar ul li a{
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.sidebar ul li a i{
+    min-width: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+.sidebar .title{
+    padding: 0 10px;
+    font-size: 20px;
+}
+h1{
+    margin-left: 50%;
+    padding-top: 30px;
+}
+.candidates {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  margin-left: 320px;
+  margin-top: 50px;
+}
+
+.candidates td, .candidates th {
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.candidates tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.candidates tr:hover {
+    background-color: #ddd;
+}
+.candidates th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #023141;
+  color: white;
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='admindashcss.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="admindashboard">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="title">College Examination</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./exam">
+                        <i class="fa-solid fa-desktop"></i>
+                        <div class="title">Exams</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./candidates">
+                        <i class="fa-solid fa-user-graduate"></i>
+                        <div class="title">Candidates</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./prof">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <div class="title">Professors</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./resultadmin">
+                        <i class="fa-solid fa-chart-bar"></i>
+                        <div class="title">View Results</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./login1">
+                        <i class="fa fa-sign-out"></i>
+                        <div class="title">Log Out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    <div class="main">
+        <div class="cards">
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">70</div>
+                    <div class="card-name">User Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-user-graduate"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">06</div>
+                    <div class="card-name">Test Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-book"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">39</div>
+                    <div class="card-name">Question Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-file-circle-question"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <div class="number">67</div>
+                    <div class="card-name">Admin Counts</div>
+                </div>
+                <div class="icon-box">
+                    <i class="fa-solid fa-user-gear"></i>
+                </div>
+            </div>
+            </div>
+        <div class="tables">
+            <div class="last-exam">
+                <div class="heading">
+                    <h2>Candidates</h2>
+                    <a href="./candidates.html" class="btn">View All</a>
+                </div>
+                <table class="forms">
+                    <thead>
+                        <td>Name</td>
+                        <td>ID</td>
+                        <td>Course</td>
+                        <td>Exam</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Riya Gupta</td>
+                            <td>101</td>
+                            <td>BCA</td>
+                            <td>
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Isha Tiwari</td>
+                            <td>102</td>
+                            <td>BMS</td>
+                            <td>
+                                <i class="fa-regular fa-circle-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ved Patil</td>
+                            <td>103</td>
+                            <td>BMM</td>
+                            <td>
+                                <i class="fa-regular fa-circle-check"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Aisha Roy</td>
+                            <td>104</td>
+                            <td>BMS</td>
+                            <td>
+                                <i class="fa-regular fa-circle-xmark"></i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jay Mehra</td>
+                            <td>105</td>
+                            <td>BCA</td>
+                            <td>
+                                <i class="fa-regular fa-circle-check"></i>
+                            </td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="admins">
+                <div class="heading">
+                    <h2>Professors</h2>
+                    <a href="./prof.html" class="btn">View All</a>
+                </div>
+                <table class="visiting">
+                    <thead>
+                        <td>Name</td>
+                        <td>Departments</td>
+                        <td>Lectures</td>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Prof. Ruth</td>
+                            <td>BCA</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td>Prof. Swara</td>
+                            <td>BMS</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Prof. Ananya</td>
+                            <td>BMM</td>
+                            <td>10</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div> 
+    </div>
+</body>
+</html>
+
+            

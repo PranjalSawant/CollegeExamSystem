@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='login1.css') }}">
+<body>
+    <div class="login-form">
+        <h1>College Examination System</h1>
+        <h1>Login As...</h1>
+        <form action="/login_admin" method="post">
+            <button type="submit">Login as Admin</button>
+            <button type="submit" formaction="/login_candidate">Login as Candidate</button> 
+        </form>
+    </div>
+</body>
+</head>
+</html>

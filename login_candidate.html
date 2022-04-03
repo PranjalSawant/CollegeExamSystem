@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Candidate Login Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+<body>
+    <div class="login-form">
+        <h1>Candidate Login</h1>
+        <form action="/admindashboard" method="post">
+            <p>User Name</p>
+            <input type="text" name="user" placeholder="Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</head>
+</html>

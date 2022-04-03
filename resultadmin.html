@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <title>Results Panel</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='resultadmin.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="./admindashboard">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <div class="title">College Examination</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./admindashboard">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <div class="title">Admin</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./exam">
+                        <i class="fa-solid fa-desktop"></i>
+                        <div class="title">Exams</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./prof">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <div class="title">Professors</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./resultadmin">
+                        <i class="fa-solid fa-chart-bar"></i>
+                        <div class="title">View Results</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="./login1">
+                        <i class="fa fa-sign-out"></i>
+                        <div class="title">Log Out</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+<h1>Candidate Results</h1>
+<table class="candidates">
+  <tr>
+    <th>Names</th>
+    <th>ID</th>
+    <th>Courses</th>
+    <th>Subjects</th>
+    <th>Scores</th>
+  </tr>
+  <tr>
+    <td>Tanya Agarwal</td>
+    <td>101</td>
+    <td>BCA</td>
+    <td>Java</td>
+    <td>Not Attempted</td>
+  </tr>
+  <tr>
+    <td>Yash Desai</td>
+    <td>102</td>
+    <td>BMS</td>
+    <td>Accounting</td>
+    <td>30/40</td>
+  </tr>
+  <tr>
+    <td>Riya Gupta</td>
+    <td>103</td>
+    <td>BMM</td>
+    <td>Digital Marketing</td>
+    <td>28/40</td>
+  </tr>
+  <tr>
+    <td>Jay Mehra</td>
+    <td>104</td>
+    <td>BMS</td>
+    <td>Accounting</td>
+    <td>Not Attempted</td>
+  </tr>
+  <tr>
+    <td>Ved Patil</td>
+    <td>105</td>
+    <td>BCA</td>
+    <td>Java</td>
+    <td>35/40</td>
+  </tr>
+  <tr>
+    <td>Dhruv Pillai</td>
+    <td>106</td>
+    <td>BCA</td>
+    <td>Java</td>
+    <td>26/40</td>
+  </tr>
+  <tr>
+    <td>Aisha Roy</td>
+    <td>107</td>
+    <td>BMS</td>
+    <td>Accounting</td>
+    <td>28/40</td>
+  </tr>
+  <tr>
+    <td>Neha Seth</td>
+    <td>108</td>
+    <td>BMM</td>
+    <td>Digital Marketing</td>
+    <td>38/40</td>
+  </tr>
+  <tr>
+    <td>Isha Tiwari</td>
+    <td>109</td>
+    <td>BMS</td>
+    <td>Accounting</td>
+    <td>37/40</td>
+  </tr>
+  <tr>
+    <td>Tejas Varma</td>
+    <td>110</td>
+    <td>BMS</td>
+    <td>Accounting</td>
+    <td>34/40</td>
+  </tr>
+</table>
+
+</body>
+</html>
